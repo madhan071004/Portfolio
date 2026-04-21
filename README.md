@@ -1,76 +1,61 @@
-🌐 Madhan M — Portfolio Website
+Madhan M Portfolio
+A responsive personal portfolio website built with HTML, CSS, and JavaScript to showcase projects, skills, resume, and contact details.
 
-A modern, responsive personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills, projects, resume, and contact information.
+Overview
+This portfolio is designed around a clean, modern single-page layout with:
 
-🚀 Live Demo
+A hero section with role-focused headline and key tech tags
+About, Skills, Projects, Education, and Contact sections
+Project accordion cards with category filters
+Smooth scrolling, reveal animations, and back-to-top behavior
+Light/Dark theme toggle with saved preference
+Mobile-friendly navigation menu
+Tech Stack
+HTML5
+CSS3 (custom properties + responsive design)
+Vanilla JavaScript (no framework)
+Tabler Icons (CDN)
+Google Fonts
+Project Structure
+.
+|-- index.html
+|-- style.css
+|-- script.js
+|-- README.md
+`-- assets/
+	|-- karthickraja.jpg
+	|-- Karthick_Raja_DataAnalyst_Resume.pdf
+	|-- bird_species_thumbnail.svg
+	|-- sql_project_thumbnail.svg
+	|-- stock_market_thumbnail.svg
+	`-- sql-project/
+		|-- 00_schema.sql
+		|-- 00_reset_data.sql
+		|-- 01_basic_analytics.sql
+		|-- 02_advanced_analytics.sql
+		|-- 03_kpi_analytics.sql
+		`-- 04_master_analytics.sql
+Featured Projects
+Bird Species Recognition - AI Audio Classifier
+Database Performance Insights (SQL)
+Stock Market Analysis Dashboard (Excel)
+Run Locally
+This is a static site, so you can run it in any of these ways:
 
-👉 (Add your deployed link here — Vercel / Netlify / GitHub Pages)
-
-📌 Features
-🎯 Clean and modern single-page design
-🌗 Dark / Light theme toggle (saved in localStorage)
-📱 Fully responsive (mobile-friendly)
-⚡ Smooth scrolling & UI animations
-🧑‍💻 Sections included:
-Home (Hero)
-About
-Skills
-Projects
-Education
+Open index.html directly in a browser.
+Run a local server:
+VS Code Live Server, or
+python -m http.server 5500
+Open http://localhost:5500.
+Customization
+Update profile details and section content in index.html.
+Adjust colors, spacing, and responsive behavior in style.css.
+Modify interactions (theme toggle, filters, menu, animations) in script.js.
+Replace resume and project thumbnails in the assets/ folder.
+Keep resume file at assets/Karthick_Raja_DataAnalyst_Resume.pdf and update RESUME_ASSET_PATH in script.js if the filename changes.
 Contact
-🗂️ Project cards with structured layout
-⌨️ Typing animation for roles
-🔝 Back-to-top functionality
-🛠️ Tech Stack
-HTML5 – Structure
-CSS3 – Styling (Custom Properties + Responsive Design)
-JavaScript (Vanilla) – Interactivity
-Google Fonts – Typography
-Tabler Icons (CDN) – Icons
-📂 Project Structure
-Portfolio-main/
-│── index.html        # Main HTML file
-│── style.css         # Styling
-│── script.js         # Functionality
-│── README.md         # Project documentation
-│── M'Final Image.jpeg
-│── M's Resume-2.pdf
-⚙️ Installation & Setup
-Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
-Navigate to the project folder:
-cd Portfolio-main
-Open in browser:
-index.html
-🎨 Customization
-
-You can easily customize:
-
-✏️ Content → Edit index.html
-🎨 Colors & Theme → Modify CSS variables in style.css
-⚙️ Functionality → Update script.js
-📄 Resume & Image → Replace files in root folder
-📸 Screenshots
-
-(Add screenshots here for better presentation)
-
-📬 Contact
-📧 Email: (your email here)
-💼 LinkedIn: (your profile link)
-🐙 GitHub: (your GitHub link)
-📄 License
-
-This project is open-source and available under the MIT License.
-
-⭐ Support
-
-If you like this project:
-
-⭐ Star this repository
-🍴 Fork it
-📢 Share it
-💡 Future Improvements
-Add backend contact form (Node.js / Spring Boot)
-Add project filtering with categories
-Improve animations using libraries (GSAP / Framer Motion)
-SEO optimization
+GitHub: https://github.com/madhan071004
+LinkedIn: https://www.linkedin.com/in/madhan-m-20b979241/
+Email: karthiikarthii46@gmail.com
+License
+This project is for personal portfolio use.
