@@ -2,7 +2,6 @@
 
 A modern, responsive personal portfolio website built with **HTML**, **CSS**, and **JavaScript**. Showcasing my skills, projects, education, and contact information as a Java Full Stack Developer.
 
-![Portfolio Preview](M'Final%20Image.jpeg)
 
 ---
 
